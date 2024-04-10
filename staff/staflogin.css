@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(bg.svg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.628);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 60px;
+    background-color: #bb9356;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #a57948;
+  }
+  
+  .register-link {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .register-link a {
+    color: #a76502;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

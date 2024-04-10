@@ -1,0 +1,87 @@
+/* Dashboard container */
+.dashboard {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(bg.svg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .dashboard h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+  }
+  
+  /* Grid layout for the widgets */
+  .widget-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  /* Widget styles */
+  .widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .widget:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Example widget content */
+  .widget img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .widget h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .widget p {
+    margin: 0;
+    color: #777;
+    text-align: center;
+  }
+  
+  .logout-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .logout {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #555;
+  }

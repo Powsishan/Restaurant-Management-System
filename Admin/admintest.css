@@ -1,0 +1,97 @@
+/* CSS for the Dashboard */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Dashboard container */
+.dashboard {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(bg.svg);
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Header */
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+
+/* Grid layout for the widgets */
+.widget-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three widgets in each row */
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Widget styles */
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Vertically center content */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #333;
+  text-decoration: none;
+  height: 200px; /* Set a medium height for all widgets */
+}
+
+.widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Example widget content */
+.widget img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.widget h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.widget p {
+  font-size: 14px;
+  text-align: center;
+  color: #777;
+}
+
+/* Logout box */
+.logout-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.logout {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.logout:hover {
+  background-color: #555;
+}
