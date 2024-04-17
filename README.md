@@ -8,6 +8,12 @@ The Restaurant Management System is a web application designed to facilitate res
 Usage
 This project is written in pure PHP code, eliminating the need for installation. However, you'll need to update the database password to ensure proper functionality.
 
+
+- PHP
+- JavaScript
+- HTML
+- CSS
+
 Features
 Admin Functions:
 Add food items
