@@ -21,3 +21,6 @@ To configure the database, update the password in the appropriate configuration 
 Contact
 For any inquiries or support, please contact [powsi] at [powsi.info@gmail.com].
 
+![image](https://github.com/Powsishan/Restaurant-Management-System-/assets/138444583/c084daa1-bf9a-43bb-af0b-ff27aeb23709)
+
+
