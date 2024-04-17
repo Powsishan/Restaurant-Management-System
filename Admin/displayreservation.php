@@ -9,6 +9,17 @@ if (isset($_POST['search'])) {
 }
 
 $result = mysqli_query($con, $query);
+
+// Check for errors
+if (!$result) {
+    // Query failed, handle the error
+    echo "Error: " . mysqli_error($con);
+    // You may want to exit here or handle the error differently
+    exit;
+}
+
+
+$result = mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>
 <html>
